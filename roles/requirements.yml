@@ -1,3 +1,3 @@
-dependencies:
+roles:
   - src: solarwinds.uamsclient
     version: 1.4.0
