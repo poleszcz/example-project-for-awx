@@ -1,5 +1,5 @@
 ---
-- name: Install UAMS client
+- name: Install UAMS client 2
 
   environment:
     UAMS_ACCESS_TOKEN: "{{ UAMS_ACCESS_TOKEN  }}"
