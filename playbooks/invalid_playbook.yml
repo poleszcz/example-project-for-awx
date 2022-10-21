@@ -1,0 +1,10 @@
+---
+- name: Install UAMS client
+
+  environment:
+    UAMS_ACCESS_TOKEN: "{{ UAMS_ACCESS_TOKEN  }}"
+  UAMS_METADATA: "{{ UAMS_METADATA  }}"
+    SWO_URL="{{ SWO_URL }}"
+
+  roles:
+    - role: solarwinds.uamsclient
