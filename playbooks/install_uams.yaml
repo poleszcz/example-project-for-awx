@@ -1,6 +1,6 @@
 ---
 - name: Install UAMS client
-  hosts: test-servers
+  hosts: uams-ubuntu-hosts
   remote_user: root
 
   environment:
