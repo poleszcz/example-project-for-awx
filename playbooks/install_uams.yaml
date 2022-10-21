@@ -1,6 +1,5 @@
 ---
 - name: Install UAMS client
-  hosts: uams-ubuntu-hosts
 
   environment:
     UAMS_ACCESS_TOKEN: "{{ UAMS_ACCESS_TOKEN  }}"
