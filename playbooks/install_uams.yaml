@@ -1,7 +1,6 @@
 ---
 - name: Install UAMS client
   hosts: uams-ubuntu-hosts
-  remote_user: root
 
   environment:
     UAMS_ACCESS_TOKEN: "{{ UAMS_ACCESS_TOKEN  }}"
